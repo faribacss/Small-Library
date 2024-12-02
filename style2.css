@@ -12,6 +12,7 @@
   border: none;
   border-radius: 20px;
   background-color: rgb(177, 220, 233);
+  outline: 0;
 }
 li {
   position: relative;
