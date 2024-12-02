@@ -1,0 +1,78 @@
+.library {
+  width: 500px;
+  margin: 100px auto;
+  border-radius: 20px;
+}
+.container {
+  padding: 10px;
+}
+.search-book {
+  margin: 20px 150px;
+  padding: 14px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(177, 220, 233);
+}
+li {
+  position: relative;
+  list-style-type: none;
+  padding: 12px;
+  margin: 10px;
+  width: 230px;
+  cursor: pointer;
+}
+.name {
+  position: absolute;
+  padding: 10px;
+  border: none;
+  width: 250px;
+}
+.delete {
+  position: inherit;
+  right: 330px;
+  top: 12px;
+  padding: 6px;
+  background-color: rgb(166, 241, 166);
+  border-radius: 6px;
+  box-shadow: none;
+  border: 1px solid green;
+  cursor: pointer;
+}
+.ticket {
+  margin-right: 45px;
+  right: 30px;
+  vertical-align: middle;
+}
+.add-book {
+  margin: 20px auto;
+  padding: 5px;
+  border: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+#butt {
+  background-color: pink;
+  border: 2px solid pink;
+  border-radius: 5px;
+  padding: 5px;
+}
+.name:hover {
+  background-color: rgba(248, 190, 229, 0.637);
+  border-radius: 10px;
+  transform: scale(1.1);
+  color: rgb(126, 116, 116);
+}
+span.delete:hover {
+  background-color: rgb(49, 126, 62);
+  border: 1px solid green;
+  color: white;
+}
+
+.error {
+  position: relative;
+  bottom: 170px;
+  color: red;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+}
